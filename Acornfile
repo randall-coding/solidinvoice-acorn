@@ -1,5 +1,5 @@
 containers: {
-    app: {
+    "solid-invoice": {
         build: {
             context: "./"
             dockerfile: "./Dockerfile"
