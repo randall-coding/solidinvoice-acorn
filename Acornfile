@@ -5,13 +5,14 @@ containers: {
             dockerfile: "./Dockerfile"
         }
         ports: publish: "80/http"
-        dirs: {
-            "/var/lib/mysql": "mysqldata"
-        }
+        // Volume causes an error, likely due to overwrite
+        // dirs: {
+        //     "/var/lib/mysql": "mysqldata"
+        // }
     }
 }
 
-volumes: mysqldata: {
-    size: "1Gi"
-    accessModes: "readWriteOnce"
-}
+// volumes: mysqldata: {
+//     size: "1Gi"
+//     accessModes: "readWriteOnce"
+// }
