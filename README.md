@@ -50,27 +50,28 @@ Visit your acorn dashboard to see if your deployment was successful.
 
 Click on the solidinvoice deployment, and find the endpoint section on the right side panel.  This is your solidinvoice instance link.
 
-![solidinvoice_acorn_ui]()
+![solidinvoice_acorn_ui](https://github.com/randall-coding/solidinvoice-acorn/assets/39175191/ab635da6-ae3c-4f79-aa17-c30856b9c183)
 
-![solidinvoice_endpoint]()
+![solidinvoice_endpoints](https://github.com/randall-coding/solidinvoice-acorn/assets/39175191/51d0287f-7ee3-4dfb-a51f-177e54738910)
 
 ## Configure Solid Invoice
 
 Go to the Solid Invoice's Acorn URL. You should see a page like the one below to register an account:
 
-![solidinvoice-install]()
+![solidinvoice-installation](https://github.com/randall-coding/solidinvoice-acorn/assets/39175191/79fca41f-7c43-4654-8c6b-83f4c490a9b1)
 
 Put your desired username, email address and password. Then click "Next".
 
 You'll see instructions to setup a cron job. You can skip this, as it's already preconfigured by use.  Just click "Login Now" and log in.
 
-![solidinvoice-cronjob]()
+![solidinvoice-cronjob](https://github.com/randall-coding/solidinvoice-acorn/assets/39175191/80a48899-9545-4dfb-a307-26b479175760)
 
 After you log in you will be prompted to setup your company. After completing all those steps you should see the SolidInvoice dashboard like the image below:
 
-![solidinvoice-dashboard]()
+![solidinvoice-dashboard](https://github.com/randall-coding/solidinvoice-acorn/assets/39175191/34d61398-bd8a-43be-b3da-e70d67618e67)
 
 ## Conclusion
+
 Congrats.  We've now got a Solid Invoice server up and running from an acorn image.
 For more detailed instructions on working with your Solid Invoice server see the official documentation below.
 
